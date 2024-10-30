@@ -3,8 +3,6 @@
 import courseData from "@/data/music-data.json"
 import Link from 'next/link';
 import Image from "next/image";
-import { Button } from "./ui/moving-border";
-import { p } from "framer-motion/client";
 import { BackgroundGradient } from './ui/background-gradient';
 
 interface Course {

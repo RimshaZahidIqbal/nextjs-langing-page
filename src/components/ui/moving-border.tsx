@@ -22,7 +22,7 @@ export function Button({
 }: {
     borderRadius?: string;
     children: React.ReactNode;
-    as?: any;
+    as?: React.ElementType;
     containerClassName?: string;
     borderClassName?: string;
     duration?: number;
