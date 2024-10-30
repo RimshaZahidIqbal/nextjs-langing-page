@@ -19,7 +19,7 @@ function HeroSection() {
                     Dive into our compressive music cources and transform your musical journey today. Whether you're a beginer or looking to refine your skills, join us to unlock your true potential.
                 </p>
 
-                <div className="mt-4">
+                <div className="mt-14">
                     <Link href={"/courses"}>
                         < Button
                             borderRadius="1.75rem"
@@ -27,10 +27,6 @@ function HeroSection() {
                         > Explore Courses</Button>
                     </Link>
                 </div>
-
-
-
-
             </div>
         </div>
     )

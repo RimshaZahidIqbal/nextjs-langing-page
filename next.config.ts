@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    domains: ["samplesongs.netlify.app"], // Add domains hosting your images
+  },
 };
 
 export default nextConfig;
